@@ -156,16 +156,22 @@ mod_iso_build () {
 mod_iso_profile_overlay () {
 	mod_iso_profile_overlay_pacman_conf
 	mod_iso_profile_overlay_packages_x86_64
+	mod_iso_profile_overlay_locale
 }
 
 mod_iso_profile_overlay_pacman_conf () {
-	cp -rf ./asset/overlay/etc/pacman.conf ./profile/airootfs/etc/pacman.conf
+	cp -f ./asset/overlay/etc/pacman.conf ./profile/airootfs/etc/pacman.conf
 
-	cp -rf ./asset/overlay-build/pacman.conf ./profile/pacman.conf
+	cp -f ./asset/overlay-build/pacman.conf ./profile/pacman.conf
 }
 
 mod_iso_profile_overlay_packages_x86_64 () {
 	cat ./asset/overlay-build/packages.x86_64.part >> ./profile/packages.x86_64
+}
+
+mod_iso_profile_overlay_locale () {
+	cp -f ./asset/overlay/etc/locale.gen ./profile/airootfs/etc/locale.gen
+	cp -f ./asset/overlay/etc/locale.conf ./profile/airootfs/etc/locale.conf
 }
 
 ##
