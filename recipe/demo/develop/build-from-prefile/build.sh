@@ -170,8 +170,12 @@ mod_iso_profile_overlay_packages_x86_64 () {
 }
 
 mod_iso_profile_overlay_locale () {
-	cp -f ./asset/overlay/etc/locale.gen ./profile/airootfs/etc/locale.gen
+
 	cp -f ./asset/overlay/etc/locale.conf ./profile/airootfs/etc/locale.conf
+	
+	#cp -f ./asset/overlay/etc/locale.gen ./profile/airootfs/etc/locale.gen
+	
+	cp -f ./asset/overlay/etc/pacman.d/hooks/40-locale-gen.hook ./profile/airootfs/etc/pacman.d/hooks/40-locale-gen.hook
 }
 
 ##

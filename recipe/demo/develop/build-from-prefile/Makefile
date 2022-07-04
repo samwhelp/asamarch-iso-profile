@@ -32,6 +32,7 @@ help:
 prepare:
 #	sudo pacman -Sy --needed base-devel archiso
 	sudo pacman -Sy --needed archiso
+#	sudo pacman -Sy --needed qemu qemu-system-x86
 .PHONY: prepare
 
 
