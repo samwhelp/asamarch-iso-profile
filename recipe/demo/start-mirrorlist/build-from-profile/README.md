@@ -1,6 +1,6 @@
 
 
-# Demo / Build Archiso / releng
+# Demo / Build Archiso / Custom Package Repository
 
 
 ## iso-profile
