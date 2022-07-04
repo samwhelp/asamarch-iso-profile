@@ -73,7 +73,7 @@ mod_iso_clean_on_prepare () {
 	util_error_echo "## Cleaning Data On Prepare"
 	util_error_echo
 
-	rm -rf "./tmp/out"
+	sudo rm -rf "./tmp"
 
 }
 
@@ -82,7 +82,7 @@ mod_iso_clean_on_exit () {
 	util_error_echo "## Cleaning Data On Exit"
 	util_error_echo
 
-	#sudo rm -rf "./tmp/work"
+	#rm -rf "./tmp/work"
 	rm -rf "./tmp/out"
 
 }

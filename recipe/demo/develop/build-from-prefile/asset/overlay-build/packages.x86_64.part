@@ -1,13 +1,90 @@
 
 
 ################################################################################
-### Head: Package / Base
+### Head: Asamos / Note
+##
+
+##
+## * https://samwhelp.github.io/asamarch-documentation/
+## * https://github.com/samwhelp/asamarch-repository
+## * https://github.com/samwhelp/asamarch-packaging
+##
+
+##
+### Tail: Asamos / Note
+################################################################################
+
+
+################################################################################
+### Head: Asamos / Base
 ##
 
 asamos-mirrorlist
 asamos-hello
 
+##
+### Tail: Asamos / Base
+################################################################################
+
+
+################################################################################
+### Head: Asamos / AUR
+##
+
+sakura
+qt5-styleplugins
+xcursor-breeze
+sublime-text-4
 
 ##
-### Tail: Package / Base
+### Tail: Asamos / AUR
+################################################################################
+
+
+################################################################################
+### Head: Asamos / Appearance
+##
+
+asamos-appearance-gtk-theme-dracula
+asamos-appearance-gtk-theme-gruvbox
+asamos-appearance-gtk-theme-gruvbox-dark
+asamos-appearance-gtk-theme-numix-blue
+asamos-appearance-icon-theme-dracula
+asamos-appearance-icon-theme-gruvbox-dark
+asamos-appearance-icon-theme-numix
+asamos-appearance-xfwm-theme-rgaps-blend-no-buttons
+
+##
+### Tail: Asamos / Appearance
+################################################################################
+
+
+################################################################################
+### Head: Asamos / Modeling
+##
+
+asamos-modeling-atom
+asamos-modeling-fcitx-chewing
+asamos-modeling-font-match-order
+asamos-modeling-gtkrc
+asamos-modeling-gtkrc-gruvbox-dark
+asamos-modeling-mousepad
+asamos-modeling-mpv
+asamos-modeling-pcmanfm-qt
+asamos-modeling-qt5ctrc
+asamos-modeling-qt5ctrc-gruvbox-dark
+asamos-modeling-qt-style-follow-gtk
+asamos-modeling-rofi
+asamos-modeling-sakura
+asamos-modeling-sublime-text
+asamos-modeling-thunar
+asamos-modeling-vi
+asamos-modeling-viewnior
+asamos-modeling-xdg-mime-applications
+asamos-modeling-xdg-user-dir-templates
+asamos-modeling-xfce
+asamos-modeling-xfce4-terminal
+
+##
+### Tail: Asamos / Modeling
 ################################################################################
