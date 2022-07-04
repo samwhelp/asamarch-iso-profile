@@ -1,6 +1,6 @@
 
 
-# Demo / Build Archiso / Custom Package Repository
+# Demo / Build Archiso / Develop
 
 
 ## iso-profile
@@ -8,6 +8,7 @@
 | iso-profile |
 | --- |
 | [releng](https://gitlab.archlinux.org/archlinux/archiso/-/tree/master/configs/releng) |
+| [profile](https://github.com/samwhelp/asamarch-iso-profile/tree/main/recipe/demo/develop/build-from-profile/profile) |
 
 
 ## Howto

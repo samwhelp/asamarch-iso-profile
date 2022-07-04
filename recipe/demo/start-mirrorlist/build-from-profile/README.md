@@ -8,6 +8,7 @@
 | iso-profile |
 | --- |
 | [releng](https://gitlab.archlinux.org/archlinux/archiso/-/tree/master/configs/releng) |
+| [profile](https://github.com/samwhelp/asamarch-iso-profile/tree/main/recipe/demo/start-mirrorlist/build-from-profile) |
 
 
 ## Howto
