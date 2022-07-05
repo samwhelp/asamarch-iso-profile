@@ -127,6 +127,26 @@ rofi
 ################################################################################
 
 
+
+
+################################################################################
+### Head: Asamos / File Archiver
+##
+
+lxqt-archiver
+engrampa
+
+
+p7zip
+unace
+unrar
+brotli
+
+##
+### Tail: Asamos / File Archiver
+################################################################################
+
+
 ################################################################################
 ### Head: Asamos / File Manager
 ##
@@ -187,6 +207,9 @@ feh
 viewnior
 gpicview
 sxiv
+
+
+ueberzug
 
 ##
 ### Tail: Asamos / Image
@@ -286,8 +309,16 @@ cairo-dock
 ### Head: Asamos / Develop
 ##
 
-archiso
+##
+## * https://wiki.archlinux.org/title/archiso
+## * https://archlinux.org/packages/extra/any/archiso/
+## * https://archlinux.org/packages/extra/x86_64/qemu-desktop/
+##
+
 base-devel
+archiso
+qemu-desktop
+
 
 tree
 fzf
