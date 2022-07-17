@@ -60,33 +60,15 @@ asamos-appearance-xfwm-theme-rgaps-blend-no-buttons
 
 
 ################################################################################
-### Head: Asamos / Modeling
+### Head: Asamos / Wallpaper
 ##
 
-asamos-modeling-atom
-asamos-modeling-fcitx-chewing
-asamos-modeling-font-match-order
-asamos-modeling-gtkrc
-asamos-modeling-gtkrc-gruvbox-dark
-asamos-modeling-mousepad
-asamos-modeling-mpv
-asamos-modeling-pcmanfm-qt
-asamos-modeling-qt5ctrc
-asamos-modeling-qt5ctrc-gruvbox-dark
-asamos-modeling-qt-style-follow-gtk
-asamos-modeling-rofi
-asamos-modeling-sakura
-asamos-modeling-sublime-text
-asamos-modeling-thunar
-asamos-modeling-vi
-asamos-modeling-viewnior
-asamos-modeling-xdg-mime-applications
-asamos-modeling-xdg-user-dir-templates
-asamos-modeling-xfce
-asamos-modeling-xfce4-terminal
+xfce4-artwork
+
+asamos-modeling-wallpaper-default
 
 ##
-### Tail: Asamos / Modeling
+### Tail: Asamos / Wallpaper
 ################################################################################
 
 
@@ -102,6 +84,38 @@ noto-fonts-cjk
 
 
 ################################################################################
+### Head: Asamos / Modeling
+##
+
+asamos-modeling-atom
+asamos-modeling-font-match-order
+asamos-modeling-gtkrc
+asamos-modeling-gtkrc-gruvbox-dark
+asamos-modeling-mousepad
+asamos-modeling-mpv
+asamos-modeling-pcmanfm-qt
+asamos-modeling-qt5ctrc
+asamos-modeling-qt5ctrc-gruvbox-dark
+asamos-modeling-qt-style-follow-gtk
+asamos-modeling-sakura
+asamos-modeling-sublime-text
+asamos-modeling-thunar
+asamos-modeling-vi
+asamos-modeling-viewnior
+asamos-modeling-xdg-mime-applications
+asamos-modeling-xdg-user-dir-templates
+asamos-modeling-xfce
+asamos-modeling-xfce4-terminal
+
+##
+### Tail: Asamos / Modeling
+################################################################################
+
+
+
+
+
+################################################################################
 ### Head: Asamos / Input Method / fcitx-chewing
 ##
 
@@ -110,6 +124,9 @@ fcitx-chewing
 fcitx-configtool
 fcitx-qt5
 fcitx-qt6
+
+
+asamos-modeling-fcitx-chewing
 
 ##
 ### Tail: Asamos / Input Method / fcitx-chewing
@@ -121,6 +138,8 @@ fcitx-qt6
 ##
 
 rofi
+
+asamos-modeling-rofi
 
 ##
 ### Tail: Asamos / App Launcher
