@@ -1,5 +1,39 @@
 
 
+
+
+################################################################################
+### Head: Asamos / Desktop Environment / Xfce
+##
+
+asamos-modeling-xfce
+
+##
+### Tail: Asamos / Desktop Environment / Xfce
+################################################################################
+
+
+################################################################################
+### Head: Asamos / Dock
+##
+
+plank
+asamos-autostart-plank-on-xfce
+asamos-modeling-plank
+
+
+cairo-dock
+#asamos-autostart-cairo-dock-on-xfce
+
+
+##
+### Tail: Asamos / Dock
+################################################################################
+
+
+
+
+
 ################################################################################
 ### Head: Asamos / Note
 ##
@@ -54,6 +88,16 @@ asamos-appearance-icon-theme-gruvbox-dark
 asamos-appearance-icon-theme-numix
 asamos-appearance-xfwm-theme-rgaps-blend-no-buttons
 
+
+asamos-modeling-gtkrc
+asamos-modeling-gtkrc-gruvbox-dark
+
+asamos-modeling-qt-style-follow-gtk
+
+asamos-modeling-qt5ctrc
+asamos-modeling-qt5ctrc-gruvbox-dark
+
+
 ##
 ### Tail: Asamos / Appearance
 ################################################################################
@@ -78,6 +122,8 @@ asamos-modeling-wallpaper-default
 
 noto-fonts-cjk
 
+asamos-modeling-font-match-order
+
 ##
 ### Tail: Asamos / Font
 ################################################################################
@@ -87,25 +133,11 @@ noto-fonts-cjk
 ### Head: Asamos / Modeling
 ##
 
-asamos-modeling-atom
-asamos-modeling-font-match-order
-asamos-modeling-gtkrc
-asamos-modeling-gtkrc-gruvbox-dark
-asamos-modeling-mousepad
-asamos-modeling-mpv
-asamos-modeling-pcmanfm-qt
-asamos-modeling-qt5ctrc
-asamos-modeling-qt5ctrc-gruvbox-dark
-asamos-modeling-qt-style-follow-gtk
-asamos-modeling-sakura
-asamos-modeling-sublime-text
-asamos-modeling-thunar
-asamos-modeling-vi
-asamos-modeling-viewnior
+
 asamos-modeling-xdg-mime-applications
 asamos-modeling-xdg-user-dir-templates
-asamos-modeling-xfce
-asamos-modeling-xfce4-terminal
+
+
 
 ##
 ### Tail: Asamos / Modeling
@@ -171,7 +203,11 @@ brotli
 ##
 
 pcmanfm-qt
+asamos-modeling-pcmanfm-qt
+
+
 thunar
+asamos-modeling-thunar
 
 ##
 ### Tail: Asamos / File Manager
@@ -182,12 +218,21 @@ thunar
 ### Head: Asamos / Text Editor
 ##
 
+asamos-modeling-vi
+
 vim
 neovim
 micro
 nano
+
 #atom
+asamos-modeling-atom
+
 #sublime-text-4
+asamos-modeling-sublime-text
+
+mousepad
+asamos-modeling-mousepad
 
 ##
 ### Tail: Asamos / Text Editor
@@ -211,7 +256,11 @@ firefox
 ##
 
 #sakura
+asamos-modeling-sakura
+
+
 xfce4-terminal
+asamos-modeling-xfce4-terminal
 
 ##
 ### Tail: Asamos / Terminal
@@ -222,8 +271,11 @@ xfce4-terminal
 ### Head: Asamos / Image
 ##
 
-feh
+
 viewnior
+asamos-modeling-viewnior
+
+feh
 gpicview
 sxiv
 
@@ -250,8 +302,10 @@ audacious
 ### Head: Asamos / Video
 ##
 
-vlc
 mpv
+asamos-modeling-mpv
+
+vlc
 smplayer
 
 ##
@@ -277,19 +331,6 @@ mediainfo-gui
 
 
 ################################################################################
-### Head: Asamos / Dock
-##
-
-plank
-asamos-modeling-plank
-asamos-autostart-plank-on-xfce
-
-##
-### Tail: Asamos / Dock
-################################################################################
-
-
-################################################################################
 ### Head: Asamos / Donload
 ##
 
@@ -309,18 +350,6 @@ network-manager-applet
 
 ##
 ### Tail: Asamos / Network
-################################################################################
-
-
-################################################################################
-### Head: Asamos / Dock
-##
-
-plank
-cairo-dock
-
-##
-### Tail: Asamos / Dock
 ################################################################################
 
 
